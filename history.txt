@@ -1,0 +1,57 @@
+    1  git config
+    2  git config -l
+    3  git config --global user.email "dadus15@hotmail.com"
+    4  git.config --global user.name "dadus15"
+    5  git config --global user.email "dadus15@hotmail.com"
+    6  git config --global user.email "dadus15@hotmail.com"
+    7  git config --global user.name "dadus15"
+    8  git config --global
+    9  git config --global -l
+   10  mk dir git-majonez
+   11  mkdir git-majonez
+   12  cd git status
+   13  pwd
+   14  cd ..
+   15  ls
+   16  cd git-majonez
+   17  mkdir git-majonez
+   18  cd git-majonez/
+   19  git init
+   20  touch main.cpp
+   21  git add main.cpp
+   22  git status
+   23  git commit -m"Initial commit"
+   24  git status
+   25  mkdir git-majonez
+   26  cd git-majonez/
+   27  git init
+   28  touch main.cpp
+   29  git add main.cpp
+   30  git status
+   31  git commit -m"Initial commit"
+   32  git status
+   33  git commit -am"Farewell changed"
+   34  git status
+   35  git remote add origin https://github.com/dadus15/git-majonez.git
+   36  git push -u origin master
+   37  git branch cs
+   38  git checkout cs
+   39  git status
+   40  git log
+   41  git reset --hard 
+   42  git reset --hard 0f29b11116515794d08596dbc4ebc5417b9b553
+   43  git log
+   44  git reset -- 0f29b111165157949d08596dbc4ebc5417b9b553
+   45  git log
+   46  git reset --hard 0f29b111165157949d08596dbc4ebc5417b9b553
+   47  git log
+   48  git commit -am"Greetings"
+   49  git log
+   50  git push origin cs
+   51  git checkout master
+   52  git merge cs
+   53  git status
+   54  git commit -a
+   55  git log
+   56  git push -u origin master
+   57  history >> history.txt
